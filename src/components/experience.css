@@ -1,0 +1,158 @@
+
+
+.exp {
+    color: black;
+    width: 550px;
+    margin-top: 90px;
+    align-self: center;
+    margin-right: 60px;
+    display: flex;
+    flex-direction: column;
+    font-family: 'poppins';
+    
+}
+
+.inner-1{
+    background-color: transparent;
+    width: auto;
+    height: 350px;
+    display: flex;
+    flex-direction: row;
+    color: #94a3b8;
+    padding-right: 10px; 
+    
+}
+.date-div, .date-div p{
+    padding-top: 20px;
+    padding-left: 20px;
+    background-color: transparent;
+    width: 150px;
+    height: auto;
+    border-radius: 5px;
+
+}
+.info-div{
+    width: 400px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: transparent;
+}
+.info-div #text-div{
+    padding-top: 15px;
+    width: auto;
+    height: 230px;
+    background-color: transparent;
+}
+.info-div #button-div{
+    width:auto;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: transparent;
+
+}
+
+.resume-link a{
+    margin-top: 30px;
+    font-size: 15px;
+    font-weight: 900;
+    color:#e2e8f0;
+    background-color: transparent;
+    text-decoration: none;
+}
+.resume-link a:hover{
+    color:#5eead4;
+    font-size: 16px;
+    transition: 0.5s;
+}
+
+.title-p{
+    font-size: 20px;
+    font-weight: 900;
+    color: #e2e8f0;
+    background-color: transparent;
+}
+.job-des{
+    font-size: 16px;
+    font-weight: 500;
+    color: #94a3b8;
+    background-color: transparent;
+}
+.btn-used{
+    color: #5eead4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    margin-left: 10px;
+    border-radius: 15px ;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 11px;
+    backdrop-filter: blur(20px);
+    background-color: rgb(111, 179, 168,.5);
+}
+.inner-1:hover{
+    cursor: pointer;
+    backdrop-filter: blur(3px);
+    transition: 0.7s;
+    border-radius: 10px;
+    background-color: rgba(43, 56, 94, 0.1);
+}
+.inner-1:hover .title-p{
+    color: #5eead4;
+    transition: 0.7s;
+}
+.work-des{
+    font-size: 14px;
+    color: #94a3b8;
+    background-color: transparent;
+
+}
+@media (max-width: 768px) {
+    .exp {
+        width: 80%;
+    }
+    .inner-1{
+        height: auto;
+        width: auto;
+
+    }
+    .info-div{
+        width: auto;
+
+
+    }
+    .info-div #text-div{
+        width: auto;
+        height: auto;
+    }
+    .info-div #button-div{
+        width: auto;
+        height: auto;
+        margin-top: 10px;
+    }
+    .btn-used{
+        margin: 5px;
+    }
+     .resume-link {
+                    margin-left: 1rem;
+                    margin-top: 15px;
+     }
+} 
+@media (max-width: 550px){
+    .exp{
+        margin-left: -1rem;
+    }
+    .resume-link{
+        margin-left: 1rem;
+        margin-top: 15px;
+    }
+}
+@font-face {
+    font-family: 'poppins';
+    src: url('../fonts/Poppins-Regular.ttf') format('truetype');
+
+}

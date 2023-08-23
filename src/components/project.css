@@ -1,0 +1,182 @@
+
+
+.project-container {
+    color: white;
+    width: 550px;
+    margin-top: 90px;
+    align-self: center;
+    margin-right: 60px;
+    display: flex;
+    flex-direction: column;
+    font-family: 'poppins';
+    background-color:#0a1121;
+
+
+}
+.inner-project{
+    width: 550px;
+    height: auto;
+    display:flex;
+    flex-direction: row;
+    align-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 15px;
+   
+    
+}
+.inner-project:hover{
+    cursor: pointer;
+    backdrop-filter: blur(3px);
+    transition: 0.5s;
+    border-radius: 10px;
+    background-color: rgba(43, 56, 94, 0.1);
+}
+.inner-project:hover .project-title{
+    color: #5eead4;
+}
+
+.pic-div{
+    background-color: transparent;
+    width: 150px;
+    height: auto;
+    padding-left: 10px;
+}
+
+.pic-div #pic1{
+    height: 70px;
+    width: auto;
+    background-image: url('../pictures/Hotel-Login.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 2px solid grey;
+    border-radius: 5px;
+    margin-right: 5px;
+    
+}
+
+.pic-div #pic2 {
+    height: 70px;
+    width: auto;
+    background-image: url('../pictures/Urlshortner.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 2px solid grey;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+.pic-div #pic3 {
+    height: 70px;
+    width: auto;
+    background-image: url('../pictures/Microservice.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 2px solid grey;
+    border-radius: 5px;
+    margin-right: 5px;
+
+}
+.pic-div #pic4 {
+    height: 70px;
+    width: auto;
+    background-image: url('../pictures/Todo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 2px solid grey;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+
+.project-des{
+    background-color: transparent;
+    width: 350px;
+    height: auto;
+
+}
+.project-title{
+    background-color: transparent;
+    display: block;
+    height: 30px;
+    width: auto;
+    padding-left: 10px;
+    font-size: 18px;
+    font-weight: 900;
+
+}
+.project-title p{
+    background-color: transparent;
+}
+
+.project{
+        height: auto;
+        width: 330px;
+        padding: 5px;
+        font-size: 13px;
+        color: #94a3b8;
+        background-color: transparent;
+}
+
+.used-div{
+        height: 40px;
+        width: 350px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-items: center;
+        background-color: transparent;
+
+}
+
+.links{
+    margin-left: 15px;
+    font-size: 13px;
+    background-color: transparent;
+    
+
+}
+.links a{
+
+    color: #5eead4;
+    background-color: transparent;
+    text-decoration: none;
+}
+.more-projects{
+    margin-top: 20px;
+}
+@media (max-width: 768px){
+    .project-container{
+        width: 80%;
+        height: auto;
+    }
+    .inner-project{
+       box-sizing: border-box; 
+       height: auto;
+       width: auto;
+       display: flex;
+       flex-direction: column;
+    }
+    .project-des{
+        width: auto;
+    }
+    .project-title,.project{
+        height: auto;
+        width: auto;
+    }
+    .pic-div{
+        height: auto;
+        margin-bottom: 1rem;
+    }
+    
+}
+@media (max-width: 550px){
+    .project-container{
+        margin-left: 1rem;
+    }
+}
+
+
+@font-face {
+    font-family: 'poppins';
+    src: url('../fonts/Poppins-Regular.ttf') format('truetype');
+
+}
