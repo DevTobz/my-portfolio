@@ -29,6 +29,7 @@ const experience = () => {
             </div>
             <div className='resume-link'>
                 <a href=""><p>View Full Resume ---</p></a>
+            
             </div>
 
         </div>

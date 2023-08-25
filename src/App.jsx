@@ -39,7 +39,7 @@ function App() {
       <div className="fixed-div">
           <div className="inner-fixed">
             <div id='i-div1'>
-              <p id='name'>Hi, I'm Akintelure Oluwatobi</p>
+              <p id='name' ref={nameDiv}>Hi, I'm Akintelure Oluwatobi</p>
               <p id='position'>Full Stack Software Developer</p>
               <p id='p-pdesc'>I love to explore new technologies and frameworks to create efficient and innovative solutions technological stacks.</p>
             </div>
