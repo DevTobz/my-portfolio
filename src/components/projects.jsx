@@ -40,7 +40,7 @@ const projects = () => {
                     <span className="project-title"><p>URL Shorterner</p></span>
                     <div className="project">This React-based link shortener utilizes an external API to generate shortened URLs for user-provided long links. It offers a seamless interface for creating, copying, and sharing compact links.</div>
                     <div className="used-div">
-                        <div className="links"><a href="eurl-shortener-devtobz.vercel.app">Live Demo</a></div>
+                        <div className="links"><a href="https://eurl-shortener-devtobz.vercel.app">Live Demo</a></div>
                         <div className="links"><a href="https://github.com/DevTobz/Url-Shortener-React">GitHub</a></div>    
                     </div>
 
@@ -73,7 +73,7 @@ const projects = () => {
                     <span className="project-title">Todo App</span>
                     <div className="project">This React-based Todo app offers a user-friendly interface to manage tasks efficiently. Users can add, edit, and mark tasks as complete, creating an organized and productive workflow. The app utilizes state management to ensure data consistency and provides a clean, responsive design for seamless usage across devices.</div>
                     <div className="used-div">
-                        <div className="links"><a href="todo-app-react-devtobz.vercel.app">Live Demo</a></div>
+                        <div className="links"><a href="https://todo-app-devtobz.vercel.app/">Live Demo</a></div>
                         <div className="links"><a href="https://github.com/DevTobz/Todo-app-react">GitHub</a></div> 
                     </div>
 
